@@ -1,4 +1,5 @@
-.output/eagle/debug/obj/user_main.o .output/eagle/debug/obj/user_main.d : user_main.c ../include/user_main.h ../../include/osapi.h \
+.output/eagle/debug/obj/my_http.o .output/eagle/debug/obj/my_http.d : my_http.c ../include/my_http.h ../../include/c_types.h \
+ ../include/client.h ../include/user_main.h ../../include/osapi.h \
  /opt/xtensa-lx106-elf/lib/gcc/xtensa-lx106-elf/4.8.2/include/string.h \
  /opt/xtensa-lx106-elf/lib/gcc/xtensa-lx106-elf/4.8.2/include/_ansi.h \
  /opt/xtensa-lx106-elf/lib/gcc/xtensa-lx106-elf/4.8.2/include/newlib.h \
@@ -14,7 +15,6 @@
  ../../include/eagle_soc.h ../../include/ip_addr.h ../../include/queue.h \
  ../../include/spi_flash.h ../include/driver/uart.h \
  ../include/driver/uart_register.h ../../include/eagle_soc.h \
- ../../include/c_types.h ../include/oled.h ../../include/gpio.h \
- ../include/wifi_set.h ../../include/ets_sys.h ../../include/espconn.h \
- ../include/client.h ../include/user_main.h ../../include/mem.h \
- ../include/my_http.h
+ ../include/oled.h ../../include/gpio.h ../include/wifi_set.h \
+ ../../include/ets_sys.h ../../include/espconn.h ../include/client.h \
+ ../../include/mem.h ../include/my_http.h
